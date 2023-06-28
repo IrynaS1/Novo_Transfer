@@ -1,0 +1,80 @@
+.contacts__container {
+	padding: 100px 155px 100px 145px;
+}
+
+.contacts__title {
+	margin-bottom: 30px;
+}
+
+.contacts__title_color {
+	color: #771975;
+}
+
+.contacts__block {
+	display: flex;
+	flex-direction: row;
+}
+
+.contacts__block-desc:first-child {
+	margin-right: 100px;
+}
+
+.contacts__row-desc {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+}
+
+.contacts__row-value {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 40px;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+}
+
+.contacts__row-email {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 35px;
+	font-feature-settings: 'liga' off;
+	color: #771975;
+}
+
+.mb {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+	.contacts__row-desc {
+		font-size: 15px;
+		line-height: 20px;
+
+	}
+
+	.contacts__row-value {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.contacts__row-email {
+		font-size: 20px;
+	}
+}
+
+@media (max-width:850.29px) {
+	.contacts__container {
+		padding: 50px 70px;
+	}
+}
+
+@media (max-width:744px) {
+	.contacts__block-desc:first-child {
+		margin-right: 50px;
+	}
+}

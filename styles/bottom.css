@@ -1,0 +1,147 @@
+.bottom {
+	background-image: url('../images/airport.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 863px;
+}
+
+.bottom-container {
+	padding: 100px 152px 0 145px;
+}
+
+.bottom__title {
+	color: #771975;
+	margin-bottom: 22px;
+}
+
+.bottom__title_color {
+	margin-bottom: 40px;
+}
+
+.bottom__subtitle {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+}
+
+.bottom__wrapper {
+	padding: 30px 40px 30px 30px;
+	background: #FFFFFF;
+}
+
+.bottom__form-columns {
+	display: grid;
+	grid-template-columns: 500px 500px;
+	grid-template-areas: 'a b';
+	gap: 30px;
+	margin-bottom: 20px;
+}
+
+.bottom__form-column_left {
+	grid-area: a;
+}
+
+.bottom__form-column_right {
+	grid-area: b;
+}
+
+.bottom__form-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom__form-label {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 12px;
+	color: #858585;
+	margin-bottom: 10px;
+}
+
+.bottom__form-input {
+	padding: 14px 12px;
+	background: #FFFFFF;
+	border: 1px solid #D9D9D9;
+}
+
+.bottom__form-input_mb {
+	margin-bottom: 20px;
+}
+
+.bottom__form-button {
+	padding: 14px 20px;
+	background: linear-gradient(90deg, #EA4106 0%, #761976 100%);
+	border-radius: 50px;
+	border: none;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 17px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+@media (max-width: 1352.73px) {
+	.bottom__form-columns {
+		grid-template-columns: 480px 480px;
+	}
+}
+
+@media (max-width: 1190.40px) {
+	.bottom {
+		background-size: contain;
+		min-height: 700px;
+	}
+
+	.bottom__form-columns {
+		grid-template-columns: 400px 400px;
+	}
+}
+
+@media (max-width: 992px) {
+	.bottom {
+		min-height: 580px;
+	}
+
+	.bottom__form-columns {
+		grid-template-columns: 300px 300px;
+	}
+}
+
+@media (max-width:850.29px) {
+	.bottom {
+		min-height: 0;
+		max-height: 500px;
+	}
+
+	.bottom-container {
+		padding: 50px 70px;
+	}
+
+	.bottom__form-input {
+		padding: 8px 12px;
+	}
+}
+
+@media (max-width:744px) {
+	.bottom {
+		background-size: cover;
+	}
+
+	.bottom__title_color {
+		margin-bottom: 20px;
+	}
+
+	.bottom__form-columns {
+		grid-template-columns: 250px 245px;
+	}
+
+	.bottom__subtitle {
+		font-size: 15px;
+		line-height: 20px;
+	}
+}

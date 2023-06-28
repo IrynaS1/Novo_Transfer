@@ -1,0 +1,179 @@
+.box {
+	padding: 100px 150px;
+}
+
+.box__top {
+	display: flex;
+	gap: 149px;
+}
+
+.box__title {
+	margin-bottom: 30px;
+}
+
+.box__title_color {
+	color: #771975;
+}
+
+.box__picture {
+	padding: 24px 49px 0 49px;
+	margin-bottom: 50px;
+}
+
+.box__picture-img {
+	background-image: url('../images/box-car.jpg');
+	min-width: 201px;
+	min-height: 96px;
+	background-repeat: no-repeat;
+}
+
+.box__subtitle_color {
+	color: #000000;
+}
+
+.box__button-btn {
+	padding: 14px 20px;
+	background: linear-gradient(90deg, #EA4106 0%, #761976 100%);
+	border-radius: 50px;
+	border: none;
+}
+
+.box__button-text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 17px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-right: 10px;
+}
+
+.box__button-img {
+	display: inline-block;
+	min-width: 16px;
+	min-height: 15px;
+	background-repeat: no-repeat;
+}
+
+.box__button-img_open {
+	background-image: url('../images/open-eye.svg');
+}
+
+.box__button-img_close {
+	background-image: url('../images/close-eye.svg');
+}
+
+.box__button-btn_open {
+	float: right;
+}
+
+.box__button-btn_close {
+	display: none;
+	margin: 0 auto;
+}
+
+.box-list {
+	display: none;
+}
+
+.box-list__cards {
+	padding: 30px 0 30px 0;
+	display: flex;
+	gap: 66px;
+}
+
+.box-list__card-img {
+	min-width: 300px;
+	min-height: 200px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+}
+
+.box-list__card-img_standart {
+	background-image: url('../images/card1.jpg');
+}
+
+.box-list__card-img_business {
+	background-image: url('../images/card2.jpg');
+}
+
+.box-list__card-img_business-pls {
+	background-image: url('../images/card3.jpg');
+}
+
+.box-list__card-img_represent {
+	background-image: url('../images/card4.jpg');
+}
+
+.box-list__card-img_buses {
+	background-image: url('../images/card5.jpg');
+}
+
+.box-list__card-img_minivan {
+	background-image: url('../images/card6.jpg');
+}
+
+.box-list__card-img_microbus {
+	background-image: url('../images/card7.jpg');
+}
+
+.box-list__card-img_truck {
+	background-image: url('../images/card8.jpg');
+}
+
+.box-list__card-img_minivan-vip {
+	background-image: url('../images/card9.jpg');
+}
+
+.box-list__card-img_microbus-s {
+	background-image: url('../images/card10.jpg');
+}
+
+.box-list__card-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 24px;
+	font-feature-settings: 'liga' off;
+	color: #771975;
+	margin-bottom: 30px;
+}
+
+.box-list__card-description {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+}
+
+@media (max-width:1228.80px) {
+	.box-list__cards {
+		padding: 0 0;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.box-list__card {
+		display: flex;
+		gap: 40px;
+		align-items: center;
+	}
+
+	.box-list__card-title {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width:850.29px) {
+	.box {
+		padding: 50px 70px;
+	}
+}
+
+@media (max-width: 744px) {
+	.box__top {
+		gap: 50px;
+	}
+}
