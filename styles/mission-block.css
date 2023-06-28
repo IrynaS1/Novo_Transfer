@@ -1,0 +1,90 @@
+.mission-block {
+	width: 100%;
+	min-height: 445px;
+	background: #201225;
+	position: relative;
+}
+
+.mission-block-img {
+	background-image: url('../images/mission.svg');
+	background-repeat: no-repeat;
+	min-width: 785px;
+	min-height: 445px;
+	position: absolute;
+	left: 615px;
+}
+
+.mission-block__container {
+	padding: 100px 0 100px 145px;
+}
+
+.mission-block__subtitle {
+	margin-bottom: 30px;
+}
+
+.mission-block__subtitle-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+}
+
+.mission-block__pharagraph {
+	max-width: 712px;
+}
+
+.mission-block__text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 60px;
+	font-feature-settings: 'liga' off;
+	color: #FFFFFF;
+}
+
+@media (max-width: 1190.40px) {
+	.mission-block-img {
+		background-size: contain;
+	}
+
+	.mission-block__text {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 992px) {
+	.mission-block-img {
+		left: 480px;
+	}
+
+	.mission-block__pharagraph {
+		max-width: 550px;
+	}
+}
+
+@media (max-width:850.29px) {
+	.mission-block__container {
+		padding: 100px 100px 50px 70px;
+	}
+}
+
+@media (max-width:744px) {
+	.mission-block__container {
+		padding: 50px 200px 50px 70px;
+	}
+
+	.mission-block-img {
+		left: 350px;
+	}
+
+	.mission-block__text {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.mission-block__pharagraph {
+		max-width: 320px;
+	}
+}

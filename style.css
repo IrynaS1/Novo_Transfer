@@ -1,0 +1,21 @@
+@import url("./normalize.css");
+
+@import url("./global_styles.css");
+
+@import url("./styles/page.css");
+
+@import url("./styles/top.css");
+
+@import url("./styles/box.css");
+
+@import url("./styles/title.css");
+
+@import url("./styles/text.css");
+
+@import url("./styles/block.css");
+
+@import url("./styles/mission-block.css");
+
+@import url("./styles/contacts.css");
+
+@import url("./styles/bottom.css");

@@ -1,0 +1,257 @@
+.block {
+	padding: 60px 145px 0 145px;
+	background-image: url('../images/bg_block.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 1565px;
+}
+
+.block-part {
+	margin-bottom: 72px;
+}
+
+.block-part__title {
+	margin-bottom: 53px;
+}
+
+.block-part__title_color {
+	color: #FFFFFF;
+}
+
+.block-part__list-items {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 25px;
+	margin-bottom: 30px;
+}
+
+.block-part__list-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 255px;
+	min-height: 265px;
+}
+
+.block-part__list-item {
+	border: 1px solid #9A2E9D;
+	background-color: rgba(61, 5, 61, 0.77);
+}
+
+.block-part__list-items:last-child {
+	margin-bottom: 0;
+}
+
+.block-part__list-item-img {
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.block-part__list-item-title {
+	width: 253px;
+	min-height: 92px;
+}
+
+.block-part__list-item-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	font-feature-settings: 'liga' off;
+}
+
+.block-part__list-item-text_color-white {
+	color: #FFFFFF;
+}
+
+.block-part__list-item-text_color-purple {
+	color: #8C1E8E;
+}
+
+.block-part__list-item-img_comfort {
+	background-image: url('../images/comfort.svg');
+	min-width: 109px;
+	min-height: 109px;
+}
+
+.block-part__list-item-img_punctuality {
+	background-image: url('../images/punctuality.svg');
+	min-width: 109px;
+	min-height: 109px;
+}
+
+.block-part__list-item-img_prices {
+	background-image: url('../images/prices.svg');
+	min-width: 93px;
+	min-height: 93px;
+}
+
+.block-part__list-item-img_support {
+	background-image: url('../images/support.svg');
+	min-width: 104px;
+	min-height: 104px;
+}
+
+.block-part__list-item-img_orders {
+	background-image: url('../images/orders.svg');
+	min-width: 101px;
+	min-height: 128px;
+}
+
+.block-part__list-item-img_online {
+	background-image: url('../images/online.svg');
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.block-part__list-item-img_manager {
+	background-image: url('../images/manager.svg');
+	min-width: 104px;
+	min-height: 104px;
+}
+
+.block-part__list-item-img_drivers {
+	background-image: url('../images/drivers.svg');
+	min-width: 167px;
+	min-height: 107px;
+}
+
+.block-part__list-item-img_credit {
+	background-image: url('../images/credit.svg');
+	min-width: 108px;
+	min-height: 108px;
+}
+
+.block-part__list-item-img_quality {
+	background-image: url('../images/quality.svg');
+	min-width: 114px;
+	min-height: 114px;
+}
+
+.block-part__list-item-img_insurance {
+	background-image: url('../images/insurance.svg');
+	min-width: 92px;
+	min-height: 104px;
+}
+
+.block-part__list-item-img_nds {
+	background-image: url('../images/nds.svg');
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.block-part__list-item-img_translator {
+	background-image: url('../images/translator.svg');
+	min-width: 116px;
+	min-height: 116px;
+}
+
+.block-part__list-item-img_halls {
+	background-image: url('../images/halls.svg');
+	min-width: 84px;
+	min-height: 84px;
+}
+
+.block-part__list-item-img_track {
+	background-image: url('../images/track.svg');
+	min-width: 98px;
+	min-height: 98px;
+}
+
+.block-part__list_flex {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+}
+
+.block-part__list-dots {
+	display: none;
+}
+
+.no-visible {
+	display: none;
+}
+
+.block-part__list-item_border {
+	background: #FFF;
+	border: none;
+}
+
+.block-part__list-item-description {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	font-feature-settings: 'liga' off;
+	color: #000000;
+}
+
+@media (max-width: 1352.73px) {
+	.block-part__list-item {
+		min-width: 0;
+		max-width: 240px;
+	}
+
+	.block-part__list-item-title {
+		width: 240px;
+	}
+}
+
+@media (max-width: 1190.40px) {
+	.block-part__list-item {
+		max-width: 200px;
+	}
+
+	.block-part__list-item-title {
+		width: 200px;
+	}
+
+	.block-part__list-item-text {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 992px) {
+	.block-part__list-item {
+		max-width: 150px;
+	}
+
+	.block-part__list-item-img_comfort {
+		min-width: 90px;
+		min-height: 90px;
+		background-size: contain;
+	}
+
+	.block-part__list-item-title {
+		width: 150px;
+	}
+
+	.block-part__list-item-text {
+		font-size: 13px;
+	}
+}
+
+@media (max-width:850.29px) {
+	.block {
+		padding: 50px 70px 0 70px;
+		min-height: 1560px;
+	}
+}
+
+@media (max-width: 744px) {
+	.block {
+		min-height: 1300px;
+	}
+
+	.block-part__list-items {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.block-part__list-item {
+		max-width: 0;
+		min-width: 200px;
+	}
+}

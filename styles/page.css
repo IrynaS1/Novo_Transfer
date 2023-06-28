@@ -1,0 +1,13 @@
+@media(max-width:6144px) and (min-width:1400px) {
+	.page {
+		padding-left: calc((100% - 1400px)/2);
+		padding-right: calc((100% - 1400px)/2);
+	}
+}
+
+@media (max-width:1228.80px) {
+	.page {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
